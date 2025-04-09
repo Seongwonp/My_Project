@@ -7,13 +7,7 @@ import java.awt.*;
     자바 GUI 실습
     자바 계산기 만들기
     https://youtu.be/zFAPpiL17ow?si=6riI4bcrwQrpjJIp 이 영상을보고 실습을 해보았다.
-
-    수정일자
-    25.04.09
-     - 프레임 구현완료
-     - 버튼 구현완료
-     - 원래 실습에 없던 "%" , "+/-", 소수점 기능추가
-     - 버튼 구성수정
+    https://www.notion.so/1d0d109330638013ba09e4637a9fe1c2?pvs=4 프로젝트 일지는 노션에 올려두었다.
 */
 
 //프레임 출력 부분
