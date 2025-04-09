@@ -1,6 +1,7 @@
+package Project1;
+
 import javax.swing.*;
 import java.awt.*;
-import java.util.*;
 
 /*
     자바 GUI 실습
@@ -20,7 +21,7 @@ class CalculatorFrame extends JFrame {
 
     private JTextField inputSpace;
 
-    void calculator() {
+    void calculatorframe() {
         setLayout(null);
 
         //택스트필드의 배경색/정렬위치/글씨체/위치,크기설정
@@ -83,7 +84,7 @@ class CalculatorLogic {
 }
 
 
-public class Main {
+public class Calculator {
     public static void main(String[] args) {
 
         //맥OS Look and Feel 설정 변경
@@ -94,6 +95,6 @@ public class Main {
         }
 
         CalculatorFrame frame = new CalculatorFrame();
-        frame.calculator();
+        frame.calculatorframe();
     }
 }
